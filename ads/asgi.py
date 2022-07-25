@@ -1,5 +1,5 @@
 """
-ASGI config for DZ_27_lesson project.
+ASGI config for config project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'DZ_27_lesson.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ads.settings')
 
 application = get_asgi_application()
